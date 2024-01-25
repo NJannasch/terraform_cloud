@@ -12,7 +12,7 @@ print("Violations:\n")
 for resp.violations as violation {
     print(violation.title)
     print("Violation ID: " + violation.violation_id)
-    print("Resource: " + violatiobreak-words n.resource_id)
+    print("Resource: " + violation.resource_id)
     print("\n")
 }
 }
